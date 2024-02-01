@@ -75,5 +75,7 @@ header i {
 }
 
 @media screen and (min-width: 768px) {
-    
+    .col-lg-6{
+        width: calc((100% / 12) * 6);
+    }
 }
