@@ -15,6 +15,21 @@
 *********************************************************** */
 
 /* Utilities */
+.d-flex {
+    display: flex;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 100%;
+}
+.card.d-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 .col-12 {
     width: 100%;
     border: 1px dashed black;
@@ -23,6 +38,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 
@@ -33,14 +49,8 @@
     border-radius: 1rem;
 }
 
-.card {
-    padding: 1rem;
-    border-radius: 2rem;
-}
 
-.blue-card {
-    background-color: var(--blue-card);
-}
+
 /* ***********************************************************
 *********************************************************** */
 /* #region header */
@@ -69,49 +79,70 @@ header a {
     text-decoration: none;
     color: white;
 }
+
 .btn {
     background-color: white;
     color: black;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
 }
+
 header i {
     color: white;
 }
+
 /* #endregion header */
 
 /* #region demo */
+.demo .card {
+    background-color: var(--blue-card);
+
+}
 
 .demo img {
     width: 100%;
+    margin-bottom: -1rem;
 }
+
 .card-demo p {
     margin: 1rem 0rem
 }
-.demo h4{
+
+.demo h4 {
     color: var(--nav-color);
 }
+
 .demo a {
     display: flex;
     gap: 1.5rem;
     text-decoration: none;
     width: 60%;
     justify-content: center;
+    margin-bottom: 1rem;
 }
+
+.demo .icon {
+    font-size: 5rem;
+    color: var(--nav-color);
+}
+
 /* #endregion demo */
 
 .partners .container {
     display: flex;
     flex-direction: column;
 }
+
 .partner-card {
     display: flex;
     width: 100%;
 }
+
 .partner-left {
     width: 20%;
     border: 1px dashed red;
 }
+
 .partner-right {
     width: 80%;
     border: 1px dashed red;
@@ -122,16 +153,18 @@ header i {
 }
 
 @media screen and (min-width: 768px) {
-    .col-md-8{
+    .col-md-8 {
         width: calc((100% / 12) * 8);
     }
-    .col-md-6{
+
+    .col-md-6 {
         width: calc((100% / 12) * 6);
     }
-    .col-md-4{
+
+    .col-md-4 {
         width: calc((100% / 12) * 4);
     }
-   
+
     .card-demo div:nth-child(2) {
         width: 50%;
     }
@@ -139,19 +172,22 @@ header i {
 }
 
 @media screen and (min-width: 992px) {
-    .col-lg-6{
+    .col-lg-6 {
         width: calc((100% / 12) * 6);
     }
-    .col-lg-4{
+
+    .col-lg-4 {
         width: calc((100% / 12) * 4);
     }
 
     .container {
         width: 60%;
     }
+
     .fa-bars {
         display: none;
     }
+
     .menu {
         display: flex;
     }
@@ -159,6 +195,7 @@ header i {
     .card-demo {
         display: flex;
     }
+
     .card-demo div:nth-child(1) {
         width: 50%;
     }
