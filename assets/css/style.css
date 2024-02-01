@@ -83,6 +83,9 @@ header i {
     .col-md-8{
         width: calc((100% / 12) * 8);
     }
+    .col-md-6{
+        width: calc((100% / 12) * 6);
+    }
     .col-md-4{
         width: calc((100% / 12) * 4);
     }
@@ -92,5 +95,8 @@ header i {
 @media screen and (min-width: 768px) {
     .col-lg-6{
         width: calc((100% / 12) * 6);
+    }
+    .col-lg-4{
+        width: calc((100% / 12) * 4);
     }
 }
