@@ -326,17 +326,59 @@ header i {
 /* #region started */
 .started {
     background-color: var(--main-color);
+    text-align: center;
+    padding: 5rem 1rem 5rem 1rem;
 }
 
 .started .container {
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 .started h3 {
     color: white;
 }
-
+.free {
+    color: #fdc15f;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.started p {
+    color: white;
+}
+.started .btn {
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 1rem 3rem;
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+.copyright {
+    display: flex;  
+    color: white;
+    font-size: 1.3rem;
+    gap: 1.5rem;
+}
 /* #endregion started */
+
+/* #region footer */
+footer {
+    background-color: var(--footer-color);
+    padding: 3rem 1rem;
+}
+
+footer .container {
+    flex-direction: column;
+    color: white;
+    gap: 5rem;
+    text-align: center;
+}
+footer a {
+    color: var(--main-color);
+}
+/* #endregion footer */
 
 
 @media screen and (min-width: 768px) {
