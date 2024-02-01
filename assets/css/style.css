@@ -258,7 +258,11 @@ header i {
     color: white;
     padding-bottom: 2rem;
 }
-
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
 
 /* #endregion partners */
 
@@ -272,6 +276,10 @@ header i {
     color: white;
     padding: 1rem 0 2rem 0;
 }
+.benefits h4 {
+    color: var(--main-color);
+    padding: 1rem 0 1rem 0;
+}
 
 .benefits .container {
     flex-direction: column;
@@ -279,7 +287,18 @@ header i {
 
 .benefits .card {
     background-color: white;
+    padding: 2.5rem;
 }
+.number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--main-color);
+}
+.benefits p {
+    font-size: 1rem;
+    color: grey;
+}
+
 
 /* #endregion benefits */
 
@@ -337,7 +356,10 @@ header i {
         width: 50%;
     }
     .partner-card {
-        flex-direction: row; 
+        flex-direction: row;
+    }
+    .partner-right {
+        text-align: start;
     }
 
 }
