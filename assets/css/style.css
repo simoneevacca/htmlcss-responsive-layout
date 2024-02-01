@@ -1,6 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
+}
+
+/* Color palette */
+:root {
+    --nav-color: rgba(0, 132, 253, 1);
+}
+
+header {
+    background-color: var(--nav-color);
+    padding: 0.5rem 0;
+}
+
+header .container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+header i {
+    color: white;
 }
