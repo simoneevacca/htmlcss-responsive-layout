@@ -71,7 +71,7 @@ header i {
     .col-md-4{
         width: calc((100% / 12) * 4);
     }
-    
+   
 }
 
 @media screen and (min-width: 768px) {
