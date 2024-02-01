@@ -33,7 +33,7 @@ header {
     padding: 0.5rem 0;
 }
 
-header .container {
+.container {
     width: 95%;
     margin: auto;
     display: flex;
@@ -62,7 +62,22 @@ header i {
     color: white;
 }
 
-
+.partners .container {
+    display: flex;
+    flex-direction: column;
+}
+.partner-card {
+    display: flex;
+    width: 100%;
+}
+.partner-left {
+    width: 20%;
+    border: 1px dashed red;
+}
+.partner-right {
+    width: 80%;
+    border: 1px dashed red;
+}
 
 @media screen and (min-width: 480px) {
     .col-md-8{
