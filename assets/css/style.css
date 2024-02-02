@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
 }
 
 h4 {
@@ -214,15 +214,18 @@ header i {
 .partners .container {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .partners {
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
-
+.partners .minor-title {
+    font-size: 1.4rem;
+}
 .partners h3 {
     color: var(--main-color);
+    text-align: center;
 }
 
 .partner-card {
@@ -238,8 +241,8 @@ header i {
 }
 
 .partners img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -249,10 +252,12 @@ header i {
 }
 
 .partner-right {
+    padding: 0rem 0;
     width: 80%;
     text-align: center;
     color: white;
     padding-bottom: 2rem;
+    
 }
 .name {
     font-size: 1.5rem;
