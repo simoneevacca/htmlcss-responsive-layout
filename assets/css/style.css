@@ -406,10 +406,14 @@ header i {
     display: flex;  
     color: white;
     font-size: 1.3rem;
-    gap: 1.5rem;
+    gap: 3rem;
     & a {
         color: white;
     }
+}
+
+.copyright li:first-child {
+    list-style: none;
 }
 /* #endregion started */
 
