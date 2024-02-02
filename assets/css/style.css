@@ -298,8 +298,20 @@ header i {
 .benefits p {
     font-size: 1rem;
     color: grey;
+    padding-bottom: 2rem;
 }
 
+.benefits a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    padding: 0.5rem 3rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+
+    
+}
 
 /* #endregion benefits */
 
