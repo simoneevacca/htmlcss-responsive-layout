@@ -325,9 +325,20 @@ header i {
     flex-direction: column;
     gap: 1rem;
 }
-
-.about img {
+.about .right-card {
+    position: relative;
+}
+.about i {
+    position: absolute;
+    right: 50%;
+    font-size: 3rem;
+    color: var(--main-color);
+}
+.about .img {
     width: 50%;
+}
+.about img {
+    width: 100%;
     border-radius: 50%;
 }
 
