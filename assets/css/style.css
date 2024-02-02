@@ -165,7 +165,6 @@ header i {
 .planning {
     background-color: var(--main-color);
     padding: 2rem 0;
-
 }
 
 .planning img {
@@ -316,6 +315,9 @@ header i {
 /* #endregion benefits */
 
 /* #region about */
+.about {
+    padding: 2rem 0 3rem 0;
+}
 .about h2 {
     color: var(--main-color);
 }
@@ -327,8 +329,9 @@ header i {
 }
 .about .right-card {
     position: relative;
+    padding-left: 0;
 }
-.about i {
+.about .fa-quote-left {
     position: absolute;
     right: 50%;
     font-size: 3rem;
@@ -344,9 +347,19 @@ header i {
 
 .about h4 {
     color: var(--main-color);
+    padding-bottom: 1rem;
+}
+.about a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+   
 }
 
 /* #endregion about */
+
 /* #region started */
 .started {
     background-color: var(--main-color);
@@ -359,8 +372,12 @@ header i {
     align-items: center;
     gap: 2rem;
 }
+.started .minor-title {
+    font-size: 1.4rem;
+    color: rgb(196, 195, 220);
+}
 .started h3 {
-    color: white;
+    color: rgba(255, 255, 255, 0.978);
 }
 .free {
     color: #fdc15f;
@@ -368,7 +385,7 @@ header i {
     font-weight: bold;
 }
 .started p {
-    color: white;
+    color: white;  
 }
 .started .btn {
     letter-spacing: 0.3rem;
@@ -384,6 +401,9 @@ header i {
     color: white;
     font-size: 1.3rem;
     gap: 1.5rem;
+    & a {
+        color: white;
+    }
 }
 /* #endregion started */
 
@@ -433,6 +453,9 @@ footer a {
     .planning h3 {
         font-size: 6rem;
     }
+    .started p {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -474,6 +497,9 @@ footer a {
         height: 80%;
         width: 70%;
         margin-top: 8rem;
+    }
+    .started p {
+        width: 30%;
     }
     
      
