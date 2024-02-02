@@ -233,23 +233,15 @@ header i {
     border-radius: 4rem;
 }
 
-.partner-left {
-
-    width: 50%;
-    aspect-ratio: 1;
-    position: relative;
-    overflow: hidden;
+.partners img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    
-
+    object-fit: cover;
 }
 
-.testimonial {
-    display: inline;
-    margin: 0 auto;
-    margin-left: -25%;
-    height: 100%;
-    width: auto;
+.partner-left {
+   padding-top: 2rem;
 }
 
 .partner-right {
@@ -399,6 +391,9 @@ footer a {
     }
     .partner-card {
         flex-direction: row;
+    }
+    .partner-left{
+        padding-top: 0 ;
     }
     .partner-right {
         text-align: start;
